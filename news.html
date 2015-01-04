@@ -1,0 +1,568 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Old stuff...</title>
+</head>
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+#tgtHeader {
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left: 150px;
+	top: 25px;
+	width: 700px;
+	height: 250px;
+	z-index: 3;
+	right: 150px;
+}
+
+#tgtLogo {
+	top: 16px;
+	width: 202px;
+	height: 139px;
+	position: absolute;
+	left: -174px;
+}
+#sideContent {
+	top: 0px;
+	position: absolute;
+	width: 163px;
+	left: 537px;
+	height: 187px;
+	}
+
+#tgtNavi {
+	position: absolute;
+	top: 187px;
+	height: 100px;
+	z-index: 0;
+	left: -205px;
+	right: 60px;
+	width: 1205px;
+	padding-left: 0;
+	margin-left: 0;
+	overflow: hidden;
+	}
+
+	
+#tgtNavi ul li a {
+	font-size: 22px;
+	font-family: Fjalla One;
+	text-decoration: None;
+	display: inline-block;
+	padding: 7px 10px;
+	background-color: #6FAD2B;
+	margin-right: 0px;
+	color: #FFFFFF;
+	width: 150px;
+	text-align: center;
+	font-weight: lighter;
+	}
+
+#tgtNavi ul li {
+	float:left;
+	list-style:none;
+	}
+	
+#tgtNavi ul ul li a{
+	font-size:16px;
+	width: 100px;
+}
+
+#tgtNavi ul li a:hover {
+	background-color: #DBF081;
+	color: #000000;
+	width: 150px;
+    }
+
+#tgtNavi ul li:hover ul{
+	display: block;
+	background-color: #FFFFFF;
+}
+#tgtNavi ul ul{
+	display: none;
+	position: absolute;
+}
+#tgtNavi ul ul li{
+	display: block;
+}
+#tgtBody {
+	width: 1070px;
+	height: 897px;
+	right: 100px;
+	left: 98px;
+	position: absolute;
+	top: 341px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	border-color: #D4F88F;
+	background-color: rgba(240,239,234,1.00);
+	font-weight: 300;
+	font-family: buda;
+	font-style: normal;
+	overflow-y: scroll;
+}
+#tgtFooter {
+	width: 1438px;
+	height: 70px;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(0,0,0,1.00);
+	position: absolute;
+	left: -11px;
+	top: 1285px;
+}
+
+#regi {
+	position: absolute;
+	width: 141px;
+	height: 15px;
+	left: 1231px;
+	top: 22px;
+	color: #FFFFFF;
+	font-size: large;
+}
+a:link {
+	color: rgba(133,191,52,0.82);
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: rgba(133,191,52,0.82);
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#mainTitle {
+	position: absolute;
+	width: 1438px;
+	height: 64px;
+	left: -367px;
+	top: 248px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	font-size: 43px;
+}
+
+#news2014 {
+	position: absolute;
+	width: 973px;
+	height: 145px;
+	font-style: normal;
+	font-weight: 100;
+	text-align: right;
+	left: 65px;
+	top: 46px;
+}
+#mText {
+	position: absolute;
+	width: 461px;
+	height: 503px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 100;
+	text-align: justify;
+	left: 558px;
+	top: 58px;
+}
+#contact {
+	position: absolute;
+	width: 230px;
+	height: 21px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	background-color: #FFFFFF;
+	left: 640px;
+	top: -14px;
+	font-weight: 100;
+	text-align: center;
+	font-size: small;
+	color: #000000;
+}
+
+#sideNavi {
+	position: absolute;
+	width: 190px;
+	height: 79px;
+	left: 160px;
+	top: -4px;
+	overflow: hidden;
+}
+#sideNavi ul li a {
+	font-size: xx-large;
+	font-family: Amatic SC;
+	display: inline-block;
+	background-color: #ef5113;
+	margin-right: 0px;
+	color: #FFFFFF;
+	width: 110px;
+	text-align: center;
+	font-weight: lighter;
+	text-decoration: none;
+	}
+#sideNavi ul li {
+	float:left;
+	list-style:none;
+	}
+
+#sideNavi ul li a:hover {
+	background-color: #FFEA87;
+	color: #000000;
+	width: 110px;
+    }
+
+#yearOut {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: 10px;
+	top: 26px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#head2013 {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: -55px;
+	top: 205px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#news2013 {
+	width: 955px;
+	height: 160px;
+	right: 100px;
+	left: 2px;
+	position: absolute;
+	top: 230px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	border-color: #D4F88F;
+	background-color: rgba(240,239,234,1.00);
+	font-family: source-sans-pro;
+	font-style: normal;
+	text-align: center;
+	font-size: large;
+}
+#news3 {
+	position: absolute;
+	width: 811px;
+	height: 156px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 100;
+	text-align: justify;
+	left: 115px;
+	top: 1170px;
+}
+#news2012 {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: 45px;
+	top: 44px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#news7 {
+}
+#news2011 {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: 53px;
+	top: 592px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#news4 {
+	position: absolute;
+	width: 941px;
+	height: 645px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 100;
+	text-align: left;
+	left: 76px;
+	top: 630px;
+}
+#news2k11 {
+	position: absolute;
+	width: 970px;
+	height: 499px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 100;
+	left: 51px;
+	top: 61px;
+	text-align: left;
+	overflow-y: visible;
+}
+#tgtBody #yearOut {
+}
+#head {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: 54px;
+	top: 1133px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#head2 {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: 53px;
+	top: 1283px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#head3 {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: 54px;
+	top: 1554px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#head4 {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: 55px;
+	top: 1396px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#head5 {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: 54px;
+	top: 1700px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#head6 {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: 56px;
+	top: 1834px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#head7 {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: 54px;
+	top: 1934px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#line {
+	width: 258px;
+	height: 3px;
+	position: absolute;
+	color: #F17E30;
+	background-color: #6FAD2B;
+	left: 384px;
+	top: 263px;
+}
+#line2 {
+	width: 258px;
+	height: 3px;
+	position: absolute;
+	color: #F17E30;
+	background-color: #6FAD2B;
+	left: 398px;
+	top: 748px;
+}
+#line3 {
+	width: 258px;
+	height: 3px;
+	position: absolute;
+	color: #F17E30;
+	background-color: #6FAD2B;
+	left: 392px;
+	top: 404px;
+}
+#line4 {
+	width: 258px;
+	height: 3px;
+	position: absolute;
+	color: #F17E30;
+	background-color: #6FAD2B;
+	left: 420px;
+	top: 968px;
+}
+#line5 {
+	width: 258px;
+	height: 3px;
+	position: absolute;
+	color: #F17E30;
+	background-color: #6FAD2B;
+	left: 420px;
+	top: 968px;
+}
+#news4 p img {
+	position: absolute;
+	left: 303px;
+	top: 221px;
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="tgtHeader">
+  <div id="mainTitle">Archives</div>
+  <div id="tgtLogo"><a href="../GhanaWeb/TGTHome.html"><img src="../GhanaWeb/Images/Logo.jpg" width="228" height="154" alt=""/></a></div>
+  <nav id="tgtNavi">
+    <ul>
+      <li><a href="../GhanaWeb/tgtHome.html">HOME</a></li>
+      <li> <a href="../GhanaWeb/tgtIntro.html">ABOUT US</a>
+        <ul>
+          <li><a href="../GhanaWeb/tgtIntro.html">OUR CHARITY</a></li>
+          <li><a href="../GhanaWeb/getInvolved.html">GET INVOLVED</a></li>
+          <li><a href="../GhanaWeb/contactTGT.html">CONTACT US</a></li>
+        </ul>
+      </li>
+      <li><a href="../GhanaWeb/news.html">NEWS</a>
+        <ul>
+          <li><a href="../GhanaWeb/news.html">UPDATES</a></li>
+          <li><a href="../GhanaWeb/meetings.html">MEETINGS</a></li>
+        </ul>
+      </li>
+      <li><a href="../GhanaWeb/donate.html">DONATE</a></li>
+      <li><a href="../GhanaWeb/schools.html">GRANTS</a>
+        <ul>
+          <li><a href="../GhanaWeb/schools.html">SCHOOLS</a></li>
+          <li><a href="../GhanaWeb/request.html">REQUEST</a></li>
+        </ul>
+      </li>
+      <li><a href="../GhanaWeb/thanks.html">THANKS TO</a></li>
+    </ul>
+  </nav>
+  <div id="sideContent">
+    <nav id="sideNavi">
+      <ul>
+        <li><a href="../GhanaWeb/donate.html">DONATE</a></li>
+      </ul>
+    </nav>
+  </div>
+  <p>&nbsp;</p>
+  <div id="contact">enquiries@teachghanatrust.org.uk</div>
+</div>
+<!-- end of header -->
+<div id="tgtBody">
+  <div id="line3"></div>
+  <div id="line2"></div>
+  <div id="line"></div>
+  <div id="head7">2003</div>
+  <div id="head6">2004</div>
+  <div id="head5">2005 </div>
+  <div id="head4">2006 </div>
+  <div id="head3">2007 </div>
+  <div id="head2">2009</div>
+  <div id="head">2010</div>
+  <div id="news2k11">
+    <p align="right" style="font-weight: 900; font-style: italic; color: #EF5113;">07.03.2012</p>
+    <p>The Teach Ghana Trust will be holding their second fund-raising event of 2012, a mixed netball tournament in Coventry!    </p>
+    <p>Team entry cost is £35 for up to 10 players, or you can enter as an individual for just Â£5.</p>
+    <p>Please email <a href="mailto:info@teachghanatrust.org.uk">info@teachghanatrust.org.uk</a> to enter, and you can find more information <a href="http://www.teachghanatrust.org.uk/netball.htm">here</a>. </p>
+    <p>&nbsp;</p>
+    <p style="text-align: right; font-style: italic; color: #EF5113;">29.04.2012</p>
+    <p>The Teach Ghana Trust 2012 quiz turned out to be another rip-roaring success. Even before gift-aid had been collected, we raised over Â£1000 in ticket sales and cash donations, which is amazing given the current climate. As always, the Teach Ghana Trust is extremely grateful for your continued generosity.</p>
+    <p>&nbsp;</p>
+    <p style="font-weight: 100; font-style: italic; color: #EF5113; text-align: right;">11.01.2012 </p>
+    <p>The Teach Ghana Trust will be holding their first fund-raising event of 2012, a pub quiz at The Trader in London on Saturday 25th February. The entry fee is Â£20 per person, which includes a professionally run quiz, and a buffet meal. You can enter as a team of between 4-6 people, or as an individual and we will place you in a team ourselves. Our previous quizzes have proved to be a great success, and this year should prove no different! Prizes include a free pub meal, and champagne! If you would like to take part, please e-mail info@teachghanatrust.org.uk</p>
+  </div>
+  <div id="news4"> 
+    <p style="color: #EF5113; font-style: italic;">02.05.2011</p>
+    <p style="text-align: left">The Teach Ghana Trust has been actively providing more grants for various projects in Ghanaian schools this year. There are details and photos of some of the projects that are underway linked on the left hand side of our grants page.</p>
+    <p>&nbsp;</p>
+    <p>Work to provide electricity to the Teshie school was successfully completed recently! We were sent photos of the working lights, and students can now continue to study after the sun has gone down!<img src="TeshieDone1small.jpg" width="300" height="225" alt=""/></p>
+    <p>&nbsp;</p>
+  </div>
+  <div id="news2012">2012</div>
+  <div id="news"></div>
+  <div id="news2011">2011</div>
+  <div id="news2"></div>
+</div>
+<div id="tgtFooter">
+  <div id="regi">© TGT 2003-2011</div>
+</div>
+<div >
+</body>
+</html>

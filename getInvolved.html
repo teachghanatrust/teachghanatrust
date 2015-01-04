@@ -1,0 +1,343 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Get Involved</title>
+</head>
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+#tgtHeader {
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left: 150px;
+	top: 25px;
+	width: 700px;
+	height: 250px;
+	z-index: 3;
+	right: 150px;
+}
+
+#tgtLogo {
+	top: 16px;
+	width: 202px;
+	height: 139px;
+	position: absolute;
+	left: -174px;
+}
+#sideContent {
+	top: 0px;
+	position: absolute;
+	width: 163px;
+	left: 537px;
+	height: 187px;
+	}
+
+#tgtNavi {
+	position: absolute;
+	top: 187px;
+	height: 100px;
+	z-index: 0;
+	left: -205px;
+	right: 60px;
+	width: 1205px;
+	padding-left: 0;
+	margin-left: 0;
+	overflow: hidden;
+	}
+
+	
+#tgtNavi ul li a {
+	font-size: 22px;
+	font-family: Fjalla One;
+	text-decoration: None;
+	display: inline-block;
+	padding: 7px 10px;
+	background-color: #6FAD2B;
+	margin-right: 0px;
+	color: #FFFFFF;
+	width: 150px;
+	text-align: center;
+	font-weight: lighter;
+	}
+
+#tgtNavi ul li {
+	float:left;
+	list-style:none;
+	}
+	
+#tgtNavi ul ul li a{
+	font-size:16px;
+	width: 100px;
+}
+
+#tgtNavi ul li a:hover {
+	background-color: #DBF081;
+	color: #000000;
+	width: 150px;
+    }
+
+#tgtNavi ul li:hover ul{
+	display: block;
+	background-color: #FFFFFF;
+}
+#tgtNavi ul ul{
+	display: none;
+	position: absolute;
+}
+#tgtNavi ul ul li{
+	display: block;
+}
+#tgtBody {
+	width: 1070px;
+	height: 1435px;
+	right: 100px;
+	left: 94px;
+	position: absolute;
+	top: 341px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	border-color: #D4F88F;
+	background-color: rgba(240,239,234,1.00);
+	font-weight: 300;
+	font-family: buda;
+	font-style: normal;
+}
+#tgtFooter {
+	width: 1438px;
+	height: 70px;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(0,0,0,1.00);
+	position: absolute;
+	left: 6px;
+	top: 1800px;
+}
+
+#regi {
+	position: absolute;
+	width: 141px;
+	height: 15px;
+	left: 1231px;
+	top: 22px;
+	color: #FFFFFF;
+	font-size: large;
+}
+a:link {
+	color: rgba(133,191,52,0.82);
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: rgba(133,191,52,0.82);
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#mainTitle {
+	position: absolute;
+	width: 1438px;
+	height: 64px;
+	left: -367px;
+	top: 248px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	font-size: 43px;
+}
+
+#yoText {
+	position: absolute;
+	width: 461px;
+	height: 501px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 100;
+	text-align: justify;
+	left: 60px;
+	top: 58px;
+}
+#mText {
+	position: absolute;
+	width: 461px;
+	height: 503px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 100;
+	text-align: justify;
+	left: 558px;
+	top: 58px;
+}
+#contact {
+	position: absolute;
+	width: 230px;
+	height: 21px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	background-color: #FFFFFF;
+	left: 640px;
+	top: -14px;
+	font-weight: 100;
+	text-align: center;
+	font-size: small;
+	color: #000000;
+}
+
+#sideNavi {
+	position: absolute;
+	width: 190px;
+	height: 79px;
+	left: 160px;
+	top: -4px;
+	overflow: hidden;
+}
+#sideNavi ul li a {
+	font-size: xx-large;
+	font-family: Amatic SC;
+	display: inline-block;
+	background-color: #ef5113;
+	margin-right: 0px;
+	color: #FFFFFF;
+	width: 110px;
+	text-align: center;
+	font-weight: lighter;
+	text-decoration: none;
+	}
+#sideNavi ul li {
+	float:left;
+	list-style:none;
+	}
+
+#sideNavi ul li a:hover {
+	background-color: #FFEA87;
+	color: #000000;
+	width: 110px;
+    }
+
+#yearOut {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: -27px;
+	top: 20px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+#membership {
+	position: absolute;
+	width: 210px;
+	font-family: Fjalla One;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-align: center;
+	left: 885px;
+	top: 20px;
+	height: 48px;
+	text-shadow: 0px 0px;
+	background-color: #ef5113;
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="tgtHeader">
+  <div id="mainTitle">Get Involved</div>
+  <div id="tgtLogo"><a href="../GhanaWeb/TGTHome.html"><img src="../GhanaWeb/Images/Logo.jpg" width="228" height="154" alt=""/></a></div>
+  <nav id="tgtNavi">
+    <ul>
+      <li><a href="../GhanaWeb/tgtHome.html">HOME</a></li>
+      <li> <a href="../GhanaWeb/tgtIntro.html">ABOUT US</a>
+        <ul>
+          <li><a href="../GhanaWeb/tgtIntro.html">OUR CHARITY</a></li>
+          <li><a href="../GhanaWeb/getInvolved.html">GET INVOLVED</a></li>
+          <li><a href="../GhanaWeb/contactTGT.html">CONTACT US</a></li>
+        </ul>
+      </li>
+      <li><a href="../GhanaWeb/news.html">NEWS</a>
+        <ul>
+          <li><a href="../GhanaWeb/news.html">UPDATES</a></li>
+          <li><a href="../GhanaWeb/meetings.html">MEETINGS</a></li>
+        </ul>
+      </li>
+      <li><a href="../GhanaWeb/donate.html">DONATE</a></li>
+      <li><a href="../GhanaWeb/schools.html">GRANTS</a>
+        <ul>
+          <li><a href="../GhanaWeb/schools.html">SCHOOLS</a></li>
+          <li><a href="../GhanaWeb/request.html">REQUEST</a></li>
+        </ul>
+      </li>
+      <li><a href="../GhanaWeb/thanks.html">THANKS TO</a></li>
+    </ul>
+  </nav>
+  <div id="sideContent">
+    <nav id="sideNavi">
+      <ul>
+        <li><a href="../GhanaWeb/donate.html">DONATE</a></li>
+      </ul>
+    </nav>
+  </div>
+  <p>&nbsp;</p>
+  <div id="contact">enquiries@teachghanatrust.org.uk</div>
+</div>
+<!-- end of header -->
+<div id="tgtBody">
+<div id="yearOut">Year Out</div>
+<div id="membership">Membership</div>
+<div id="yoText">
+  <p>You may have come to the Teach Ghana Trust website because you are thinking about taking a year out. We&rsquo;d like to ask you to think long and hard about what you may be on the verge of embarking on… <br>
+    <br>
+    This may seem like an odd decision, particularly if you are thinking about arranging a gap year placement yourself. We would like to ask you to read our reasoning (summarised below and available in full in the <a href="http://www.teachghanatrust.org.uk/Meetings/Minutes/Minutes%20060326.doc">minutes</a> of the meeting): <br>
+    <br>
+    We knew that as an organisation we were in a good position to arrange placements in schools in Ghana. However, we wanted to make sure that any volunteering scheme we offered was offering a real, long term and sustainable solution to the issue we were seeking to resolve. <br>
+    <br>
+    We did not want to make schools in Ghana reliant on volunteers. There was a danger that a reliance on volunteers would lead to schools not recruiting Ghanaians to teach, which would not be good for employment levels and the internal economy.  <br>
+    <br>
+    The majority of our applicants are unqualified. We were anxious that we could not be sure that we were arranging a placement for somebody who was an able teacher and who would be of real benefit to the children they taught. <br>
+    <br>
+    Ultimately, the goal for the Teach Ghana Trust would be for schools in Ghana to no longer require volunteers, but to be able to teach their pupils with a staff of trained, salaried Ghanaian teachers. We belive that a better way to ensure this would be to act as a charity which endeavours to ensure a greater number of able, locally bred and locally trained teachers rather than alternatives to such teachers. <br>
+    <br>
+    These arguments hold not just in our case but quite possibly in many other volunteering scenarios. One organisation whose volunteering placements we regard very highly is the <a href="http://www.vso.org.uk/">Voluntary Services Overseas</a>. Their minimum requirement of 1 year is there for a reason and their strict prerequisites of experience within the field of the relevant placement are to ensure the ability and quality of the volunteer, and the best possible service to the people and communities they are endeavouring to support. <br>
+    <br>
+    It may be very tempting to take a year abroad, but we would urge you to seriously consider its consequences. Try exploring more locally based volunteering opportunities – e.g. in administrative roles with charities based in the UK, with homeless charities, working with disruptive children, working with mentally or physically disabled people etc. You may contribute more to a developing country as a tourist because your money will boost what is often an ailing internal economy. This may not have the appeal of working overseas but the assistance you can provide may be far more significant than you otherwise could. <br>
+    <br>
+    Alternatively, you may wish to reconsider volunteering for a relatively short amount of time now in order to gain valuable experience under employment. With relevant skills, a 2-year placement in the future with an organisation such as the VSO could prove far more beneficial in the long-term than a short term volunteering placement now. <br>
+    <br>
+    Finally, if you do decide to arrange a volunteering placement through a year-out &ldquo;specialist&rdquo;, please investigate your chosen organisation carefully to ensure that they utilise their funds, their staff and their volunteers as appropriately as possible and be warned that a number of gap-year organisations do not work on a charitable basis but, in fact, on a profitable one.   </p>
+  <p><br>
+</p>
+  </div>
+  <div id="mText">
+    <p>The Teach Ghana Trust has evolved over the years since its inception and the forthcoming year will be an important one; Our main aim in 2007 will be to have our capitial grants scheme up and running: i.e. for schools and teacher training colleges to apply for grants for physical resources e.g. desks, electricity, black/white boards etc.</p>
+    <p>Much of our work relies on the time devoted by volunteers while the budget for such schemes comes largely from generous donations.</p>
+    <p><strong>This is where you can help out!</strong></p>
+    <p>During the Teach Ghana Trust 2006 AGM, the trustees approved a motion for a membership scheme - full details of which can be found by reading the minutes of the meeting (via the News page).</p>
+    <p>The trustees resolved, unanimously, to adopt a membership scheme with the terms as stated in <a href="http://www.teachghanatrust.org.uk/Responsibilities%20and%20Rights.doc">this document</a>:</p>
+    <p>As a member you will have the opportunity to get involved at, pretty much, whatever level you wish.</p>
+    <p>We would ask you to pay a £20 annual membership fee1 (which would, of course, be added straight to the &lsquo;coffers&rsquo; to supplement the financing of the various schemes we operate) and this would offer you the opportunity to direct the charity (by contributing and/or voting at meetings) and to get involved with the implementation of our plans while undertaking no obligation other than to carry out any duties which you offer to carry out in a timely and efficient manner.</p>
+    <p>You will therefore be holding the <em>opportunity</em> to participate at whatever level you feel appropriate and manageable.</p>
+    <p>Seeing our plans come to fruition is the reward the Trustees seek and the reward which you can share in so sign up to being a member by completing the form below.</p>
+    <p><br>
+  </p>
+  </div>
+</div>
+<div id="tgtFooter">
+<div id="regi">© TGT 2003-2011</div>
+</div>
+  <div >
+
+</body>
+</html>
